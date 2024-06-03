@@ -6,4 +6,4 @@ def plot_hist(data, column, xLabel, yLabel, title):
     plt.xlabel(xLabel)
     plt.ylabel(yLabel)
     plt.title(title)
-    plt.savefig(f"{title}.png")
+    plt.savefig(f"./images/{title}.png")
